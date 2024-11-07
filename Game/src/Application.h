@@ -4,7 +4,6 @@
 
 #pragma once
 
-#include "IApplication/IApplication.h"
 #include "Launch/Windows/LaunchWindows.h"
 
 class Application final : public LunarisEngine::IApplication {

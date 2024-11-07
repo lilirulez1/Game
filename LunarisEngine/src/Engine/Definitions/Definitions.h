@@ -4,4 +4,8 @@
 
 #pragma once
 
-#define LUNARIS_ENGINE __declspec(dllexport)
+#ifndef BUILD_DLL
+	#define LUNARIS_ENGINE __declspec(dllexport)
+#else
+	#define LUNARIS_ENGINE __declspec(dllimport)
+#endif

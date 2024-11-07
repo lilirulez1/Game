@@ -6,10 +6,11 @@
 
 #include "Engine/Definitions/Definitions.h"
 
-namespace Engine::Launch {
+namespace LunarisEngine::Launch {
 
-	class EngineLoop {
+	class LUNARIS_ENGINE EngineLoop {
 	public:
+		static void launch();
 	};
 
 }

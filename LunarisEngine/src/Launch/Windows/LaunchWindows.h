@@ -12,10 +12,12 @@
 
 extern LunarisEngine::IApplication* EntryApplication();
 
-inline void launch_windows() {
+inline void LUNARIS_ENGINE launch_windows() {
 	const auto entry_application = EntryApplication();
 
 	std::cout << "Launching Windows" << std::endl;
+
+	LunarisEngine::Launch::EngineLoop::launch();
 }
 
 inline void shutdown_windows() {

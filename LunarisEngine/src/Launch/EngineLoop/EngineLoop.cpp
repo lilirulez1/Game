@@ -4,5 +4,10 @@
 
 #include "EngineLoop.h"
 
-namespace Engine::Launch {
+#include <iostream>
+
+namespace LunarisEngine::Launch {
+	void EngineLoop::launch() {
+		std::cout << "Running..." << std::endl;
+	}
 }
